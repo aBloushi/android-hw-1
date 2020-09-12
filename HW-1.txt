@@ -1,0 +1,21 @@
+public class HelloWorld{
+
+    
+     public static void main(String []args){
+         String myName ="عبدالله";
+         int myAge = 17;
+         
+         checkAge(myAge, myName);
+     }
+     
+     public static void checkAge(int age , String name){
+         for(int i = 0 ; i < 3 ; i++){
+         if(age >= 18){
+             System.out.println("مبروك يا "+name + ", سوف تحصل على رخصة القيادة");
+         }
+         else{
+             System.out.println("للأسف يا "+name +  " ما زلت صغير للحصول على الرخصة القيادة");
+         }
+         }
+     }
+}
